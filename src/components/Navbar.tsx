@@ -38,14 +38,14 @@ export default function Navbar() {
           <a href="#services" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
             Services
           </a>
+          <a href="#pricing" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
+            Pricing
+          </a>
           <a href="#booking" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
             Book a Call
           </a>
           <a href="#news" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
             VAT News
-          </a>
-          <a href="#about" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
-            About Us
           </a>
           <Button size="sm" className="ml-4">
             Contact
@@ -73,6 +73,13 @@ export default function Navbar() {
               Services
             </a>
             <a 
+              href="#pricing" 
+              className="text-sm font-medium p-2 hover:bg-secondary/50 rounded-lg transition-colors"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Pricing
+            </a>
+            <a 
               href="#booking" 
               className="text-sm font-medium p-2 hover:bg-secondary/50 rounded-lg transition-colors"
               onClick={() => setMobileMenuOpen(false)}
@@ -85,13 +92,6 @@ export default function Navbar() {
               onClick={() => setMobileMenuOpen(false)}
             >
               VAT News
-            </a>
-            <a 
-              href="#about" 
-              className="text-sm font-medium p-2 hover:bg-secondary/50 rounded-lg transition-colors"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              About Us
             </a>
             <Button className="w-full">
               Contact

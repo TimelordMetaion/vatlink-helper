@@ -4,6 +4,7 @@ import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
 import BookingCalendar from '@/components/BookingCalendar';
 import NewsSection from '@/components/NewsSection';
+import PricingSection from '@/components/PricingSection';
 
 const Index = () => {
   // Animate elements when they come into view
@@ -37,6 +38,7 @@ const Index = () => {
     <div className="min-h-screen">
       <Navbar />
       <HeroSection />
+      <PricingSection />
       <BookingCalendar />
       <NewsSection />
       
